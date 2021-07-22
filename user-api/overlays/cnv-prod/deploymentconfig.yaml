@@ -4,7 +4,7 @@ apiVersion: apps.openshift.io/v1
 metadata:
   name: user-api
 spec:
-  replicas: 1
+  replicas: 3
   selector:
     app.kubernetes.io/component: user-api
     app.kubernetes.io/managed-by: aicoe-thoth-devops
